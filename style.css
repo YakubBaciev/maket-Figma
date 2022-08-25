@@ -1,0 +1,293 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 1440px;
+  height: 116px;
+  background-color: #FAFAFA;
+}
+.header-wrap{
+  display: flex;
+  justify-content: space-around;
+}
+nav{
+  width: 400px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between ;
+  list-style-type: none;
+  margin-top: 40px;
+}
+.logo{
+  margin: 40px 0 40px 80px;
+}
+button{
+  margin: 36px 0 35px;
+  width: 150px;
+  height: 43px;
+}
+.feauters-info{
+  display: flex;
+  width: 1440px;
+}
+.feauters-info-text1{
+  width: 50%;
+  height: 700px;
+  background-color: #F1F1F2;
+}
+.feauters-info-text2{
+margin: 154px 162px 0px 162px;
+
+}
+.feauters-info-text2 h1{
+  font-size: 56px;
+  font-weight: 300;
+}
+.feauters-info-text2 p{
+font-size: 20px;
+margin-top: 36px;
+}
+.feauters-info-text2 button{
+  margin-top: 52px;
+  text-transform: uppercase;
+  background-color: #F7941E;
+  border: #F7941E;
+}
+.feauters-img{
+width: 50%;
+height: 700px;
+}
+.feauters-work{
+  display: flex;
+    width: 1440px;
+    height: 600px;
+}
+.feauters-work-img{
+  width: 50%;
+}
+.feauters-work-text1{
+width: 50%;
+background-color: #F1F1F2;
+}
+.feauters-work-text2{
+  margin: 164px 165px 118px 150px;
+}
+.feauters-work-text2 .text1{
+  font-style: Regular;
+  font-size: 32px;
+}
+.feauters-work-text2 .text2{
+  font-size: 20px;
+  margin-top: 23px;;
+}
+.feauters-work-text2 button{
+  text-transform: uppercase;
+  margin-top: 35px;
+  background-color: #F1F1F2;
+  border: 2px solid #F7941E;
+  color: #F7941E;
+}
+.occasions{
+  width: 1440px;
+  height: 820px;
+  background-color: #FFFFFF;
+}
+.occasions .occasions1{
+  font-size: 32px;
+  margin-top: 96px;
+  margin-left: 570px;
+}
+.occasions .occasions2{
+  font-size: 18px;
+  margin-top: 23px;
+  margin-left: 510px;
+}
+.conteiner-card{
+  display: flex;
+  justify-content: space-around;
+  width: 1170px;
+  height: 430px;
+  margin: 247px 135px 135px 135px;
+}
+.card1{
+width: 270px;
+height: 436px;
+}
+.card2{
+width: 270px;
+  height: 436px;
+}
+.card3{
+width: 270px;
+  height: 436px;
+}
+.card4{
+width: 270px;
+  height: 436px;
+}
+.card-text{
+  width: 270px;
+  height: 166px;
+  background-color: #FAFAFA;
+
+}
+.Birthday{
+font-size: 20px;
+padding-top: 24px;
+padding-left: 24px;  
+}
+.SeeMore{
+  font-size: 14px;
+  padding-top: 86px;
+  padding-left: 24px;
+}
+.ready{
+width: 1440px;
+display: flex;
+background-color: #F7941E;
+}
+.ready-text{
+  width: 50%;
+}
+.ready-button{
+  width: 50%;
+}
+.ready-text1{
+font-size: 32px;
+font-weight: bold ;
+padding-top: 81px;
+padding-left: 235px;
+}
+.ready-text2{
+font-size: 32px;
+padding-bottom: 69px;
+padding-left: 235px;
+}
+.ready-button1{
+background-color: #231F20;
+color: #FFFFFF;
+text-transform: uppercase;
+margin-left: 100px;
+margin-top: 96px;
+}
+.ready-button2{
+  background-color: #F7941E;
+  counter-reset: #000000;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  margin-left: 16px;
+
+}
+.blogs{
+  width: 1440px;
+}
+.blogs h1{
+  font-weight: normal;
+  margin: 88px 0 0 600px;
+}
+.blogsp{
+  font-size: 18px;
+  margin: 23px 0 0 467px;
+}
+.blogs1{
+  display: flex;
+width: 1170px;
+margin-top: 150px;
+margin-left: 135px;
+}
+.blogs-img img{
+  width: 400px;
+  display: block;
+}
+.blogs-text{
+  width: 770px;
+  background-color: #231F20 ;
+}
+.blogs-text h6{
+font-weight: normal;
+margin: 63px 0 30px 30px;
+color:#F1F1F2;
+}
+.blogs-text p {
+font-weight: normal;
+font-size: 32px;
+margin: 27px;
+color:#F1F1F2;
+}
+.blogs-text h5{
+font-weight: normal;
+margin-top: 100px;
+margin-left: 30px;
+color:#F1F1F2;
+}
+.blogs2{
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  height: 410px;
+  margin-left: 135px;
+}
+.blogs-card1{
+width: 45%;
+height: 290px;
+box-shadow: 10px 10px 15px 0px #0000000D;
+margin-top: 40px;
+}
+.blogs-card2{
+width: 45%;
+height: 290px;
+margin-top: 40px;
+}
+.blogs2h3{
+  margin: 48px 0 0 48px;
+
+}
+.blogs2p1{
+  margin: 16px 0 0 48px;
+  font-size: 18px;
+}
+.blogs2p2{
+  margin: 16px 0 0 48px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 410px;
+  background-color:#FAFAFA;
+}
+.footer-conteiner{
+  width: 1000px;
+}
+.logotips{
+  width: 600px;
+  margin: 115px 0 0 150px;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+hr{
+  margin-top: 53px;
+  margin-left: 30px;
+}
+.footer-logo{
+  display: flex;
+  padding-left: 300px;
+}
+.footer-logo img{
+  margin-left: 25px;
+  margin-top: 55px;
+}
+.footer-footer{
+  display: flex;
+  padding-left: 380px;
+  padding-top: 72px;
+}
+.footer-footer h6{
+  margin-left: 14px;
+  font-weight: normal;
+}
